@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <name>Encryption</name>
+  <url>http://www.sphenon.com</url>
+
+  <artifactId>encryption</artifactId>
+  <groupId>com.sphenon.components.basics</groupId>
+  <version>1.0.0</version>
+
+  <packaging>jar</packaging>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>sphenon-module</artifactId>
+    <groupId>com.sphenon</groupId>
+    <version>1.0.0</version>
+    <relativePath></relativePath>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <artifactId>context</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>configuration</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>message</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>variatives</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>exception</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>expression</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>encoding</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>notification</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+    <dependency>
+      <artifactId>system</artifactId>
+      <groupId>com.sphenon.components.basics</groupId>
+      <version>1.0.0</version>
+    </dependency>      
+  </dependencies>
+</project>
